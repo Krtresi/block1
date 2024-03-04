@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Table</title>
+    <link rel="stylesheet" type="text/css" href="./tab.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Paytone+One:wght@400&display=swap">
+  
+</head>
+
+<body>
+<div class="homee-text">
+    <a href="index.html" class="homee-btn">Home</a>
+</div>
+
+
+
+<h2>Types of Lists</h2>
+
+<h3>Unordered List (bulleted)</h3>
+<ul>
+    <li>Home</li>
+    <li>package</li>
+    <li>Destination</li>
+    <li>Contact Us</li>
+</ul>
+
+<h3>Ordered List (numbered)</h3>
+<ol>
+    <li>Home</li>
+    <li>package</li>
+    <li>Destination</li>
+    <li>Contact Us</li>
+</ol>
+
+<h3>Definition List</h3>
+<dl>
+    <dt>Page 1</dt>
+    <dd>Home</dd>
+    <dt>Page 2</dt>
+    <dd>Package</dd>
+</dl>
+
+<h3>Nested Lists</h3>
+<ul>
+    <li>Main Page 1
+        <ul class="nested-list">
+            <li>Subitem A</li>
+            <li>Subitem B</li>
+        </ul>
+    </li>
+    <li>Main Page 2</li>
+</ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Price</th>
+                <th>Duration</th>
+                <th>Flight Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>France</td>
+                <td>$1500</td>
+                <td>7 days</td>
+                <td>4 hours</td>
+            </tr>
+            <tr>
+                <td>Italy</td>
+                <td>$1200</td>
+                <td>5 days</td>
+                <td>3 hours</td>
+            </tr>
+            <tr>
+                <td>Japan</td>
+                <td>$2500</td>
+                <td>10 days</td>
+                <td>12 hours</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+<form>
+    <label for="text_input">Введіть текст:</label>
+    <input type="text" id="text_input" name="text_input">
+    <input type="submit" value="Відправити">
+</form>
+
+<form>
+    <label for="select_option">Виберіть опцію:</label>
+    <select id="select_option" name="select_option">
+        <option value="option1">Опція 1</option>
+        <option value="option2">Опція 2</option>
+        <option value="option3">Опція 3</option>
+    </select>
+    <input type="submit" value="Відправити">
+</form>
+
+<form>
+    <label>
+        <input type="radio" name="radio_option" value="option1"> Опція 1
+    </label>
+    <label>
+        <input type="radio" name="radio_option" value="option2"> Опція 2
+    </label>
+    <label>
+        <input type="radio" name="radio_option" value="option3"> Опція 3
+    </label>
+    <input type="submit" value="Відправити">
+</form>
+
+<form>
+    <label>
+        <input type="checkbox" name="checkbox_option1" value="option1"> Опція 1
+    </label>
+    <label>
+        <input type="checkbox" name="checkbox_option2" value="option2"> Опція 2
+    </label>
+    <label>
+        <input type="checkbox" name="checkbox_option3" value="option3"> Опція 3
+    </label>
+    <input type="submit" value="Відправити">
+</form>
+
+<form>
+    <label for="password_input">Введіть пароль:</label>
+    <input type="password" id="password_input" name="password_input">
+    <input type="submit" value="Відправити">
+</form>
+
+<form>
+    <label for="date_input">Оберіть дату:</label>
+    <input type="date" id="date_input" name="date_input">
+    <input type="submit" value="Відправити">
+</form>
+
+<form enctype="multipart/form-data">
+    <label for="file_input">Виберіть файл для вивантаження:</label>
+    <input type="file" id="file_input" name="file_input">
+    <input type="submit" value="Відправити">
+</form>
+
+</body>
+
+</html>
